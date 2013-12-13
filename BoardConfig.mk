@@ -31,6 +31,9 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8660_SURF
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SGH-I717,quincyatt
 
+# Resoultion
+DEVICE_RESOLUTION := 800x1280
+
 # Kernel
 TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
 TARGET_KERNEL_CONFIG        := cyanogenmod_quincyatt_defconfig
