@@ -1,3 +1,1 @@
-add_lunch_combo omni_quincyatt-userdebug
-add_lunch_combo full_quincyatt-userdebug
-
+add_lunch_combo du_quincyatt-userdebug

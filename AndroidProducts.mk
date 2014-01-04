@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_quincyatt.mk \
+    $(LOCAL_DIR)/du_quincyatt.mk \
     $(LOCAL_DIR)/full_quincyatt.mk
 
