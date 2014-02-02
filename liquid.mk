@@ -1,7 +1,7 @@
 $(call inherit-product, device/samsung/quincyatt/full_quincyatt.mk)
 
 # Inherit some common liquid stuff.
-$(call inherit-product, vendor/liquid/config/common_gsm.mk)
+#$(call inherit-product, vendor/liquid/config/common_gsm.mk)
 
 # Inherit some common liquid stuff.
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
