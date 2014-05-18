@@ -21,6 +21,9 @@ media.stagefright.enable-fma2dp=false
 media.stagefright.enable-aac=true
 media.stagefright.enable-qcp=true
 
+# Disable GC freed lines
+dalvik.vm.debug.alloc=0
+
 lpa.decode=true
 lpa.use-stagefright=true
 
@@ -55,7 +58,7 @@ ro.ril.transmitpower=true
 
 #
 # Needed to match behavior of stock rom
-#      D/PHONE: mDoesRilSendMultipleCallRing=false
+# D/PHONE: mDoesRilSendMultipleCallRing=false
 #
 ro.telephony.call_ring.multiple=0
 
@@ -63,6 +66,7 @@ ro.sf.lcd_density=320
 
 # Fields for RIL
 telephony.lteOnGsmDevice=1
+ro.telephony.default_network=10
 
 # System property for SIM
 persist.radio.apm_sim_not_pwdn=1
@@ -80,3 +84,7 @@ persist.radio.snapshot_disabled=1
 debug.composition.type=gpu
 persist.hwc.mdpcomp.enable=false
 dev.pm.dyn_samplingrate=1
+
+# HDMI
+com.qc.hdmi_out=true
+ro.hdmi.enable=true
